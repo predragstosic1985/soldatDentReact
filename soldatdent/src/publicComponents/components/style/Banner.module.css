@@ -1,0 +1,60 @@
+.footerBanner {
+  background-color: #4da8da;
+  height: 10rem;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  z-index: 1000;
+  background-image: url("../../../Assets/Images/sea.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btnBanner {
+  float: right;
+}
+
+.headline {
+  float: left;
+  /* color: #fff; */
+  font-weight: bold;
+  font-style: oblique;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  color: #fff;
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+
+.headline1 {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.bannerVisit {
+  font-weight: bold;
+  font-style: oblique;
+  background-color: #fff;
+  height: 2rem;
+  border-radius: 10px;
+}
+
+.bannerVisitLink {
+  color: #006994;
+  background-color: #fff;
+}
+
+.hideFooterBanner {
+  display: none !important;
+}

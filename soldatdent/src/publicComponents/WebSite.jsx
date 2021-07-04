@@ -5,6 +5,7 @@ import AboutUs from "./components/AboutUs";
 import ServicesSoldatDent from "./components/ServicesSoldatDent";
 import GallerySoldatDent from "./components/GallerySoldatDent";
 import ContactForm from "./components/ContactForm";
+import Banner from "./components/Banner";
 import JsonData from "./data/data.json";
 import Loader from "semantic-ui-react/dist/commonjs/elements/Loader";
 import Dimmer from "semantic-ui-react/dist/commonjs/modules/Dimmer";
@@ -21,8 +22,8 @@ const WebSite = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setIsLoading(false), 3000)
-  }, [])
+    setTimeout(() => setIsLoading(false), 3000);
+  }, []);
 
   useEffect(() => {
     try {
@@ -37,14 +38,10 @@ const WebSite = () => {
     setState({ landingPageData: JsonData });
   };
 
-
-
   return (
     <>
       <Dimmer.Inner active={isLoading} page>
-        <Loader indeterminate >
-          Soldat Dent
-        </Loader>
+        <Loader indeterminate>Soldat Dent</Loader>
       </Dimmer.Inner>
 
       <NavigationBar />
@@ -53,6 +50,7 @@ const WebSite = () => {
       <AboutUs data={state.landingPageData.About} />
       <ServicesSoldatDent data={state.landingPageData.Services} />
       <GallerySoldatDent />
+      <Banner />
       {/* <TestimonialUsers data={state.landingPageData.Testimonials} /> */}
       {/* <TeamSoldatDent data={state.landingPageData.Team} /> */}
       <ContactForm data={state.landingPageData.Contact} />
