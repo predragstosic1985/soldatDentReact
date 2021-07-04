@@ -1,0 +1,130 @@
+{
+    "Header": {
+
+        "title": "Dobro došli",
+        "paragraph": " Soldat dent je stomatoloska ordinacija u Ugrinovcima. Kompletne stomatoloske usluge na jednom mestu, za vise informacija pogledajte rubriku usluge. Ukoliko zelite da zakazete pregled ili da nas kontaktirate pogledajte rubriku kontakt."
+    },
+    "About": {
+        "paragraph": "Nasa ordinacija je pocela sa radom u januaru 2014. godine. Stomatološka ordinacija Soldat Dent uspedno se bavi stomatologijom, implantologijom, protetikom, oralnom hirurgijom i decijom stomatologijom. Vise hiljada pacijenata moze da posvedoci o kvalitetu nasih usluga. Pored najsavremenije ordinacije za pacijente smo uredili i ugodnu cekaonicu za relaksaciju pre i posle zahvata. Ordinacija Soldat Dent svoju praksu i zadovoljstvo pacijenata zasniva na radu sa visokokvalitetnim materijalom renomiranih proizvodjaca, digitalnoj tehnologiji i savremenom pristupu sa ciljem da iz nase ordinacije izadjete sa lepim osmehom i trajno resenim problemima. Svakom pacijentu obezbedili smo besplatan pregled uz preciznu analizu zdravlja usta i zuba. Od trenutka kada se saniraju urgentni problemi, predocićemo vam plan dovodjenja zdravlja i izgleda vasih zuba na najvisi moguci nivo.        Pored konzervatinih metoda lecenja mozete ocekivati i najsavremenije metode za negu i tretman vasih zuba",
+        "Why": [
+            "Stucan tim",
+            "Kvalitetni materijali",
+            "Najsavremenija oprema",
+            "Nove metode"
+        ],
+        "Why2": [
+            "Konstantno strucno usavrsavanje",
+            "Pratimo aktuelne trendove",
+            "Posvecenost vama",
+            "Prijatno osoblje"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-code",
+            "name": "Besplatan pregled",
+            "text": " U nasoj ordinaciji vrsimo besplatan stomatoloski pregled i konsultacije za klijente svih uzrasta. Nasa ordinacija koristi najkvalitetnije medikamente na trzistu, za negu i lecenje vasih zuba."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Lecenje zuba",
+            "text": "Lecenje kanala korena, odnosno endodontska terapija je medju najnepopularnijim stomatoloskim intervencijama, verovatno zato sto sam naziv vec asocira na nesto veoma bolno. Medjutim, u stvarnosti to nije bolan zahvat."
+        },
+        {
+            "icon": "fa fa-cog",
+            "name": "Uklanjanje zubnog kamenca",
+            "text": "Kamenac se formira na zubima zbog monogih faktora i u danasnje vreme gotovo je nemoguce izbeci stvaranje kamneca.Kada se kamenac vec formirao na vasim zubima postaje teze, ako ne i nemoguce, pravilno i detaljno oprati zube i koristiti konac. A bakterije i dalje proizvode kiselinu koju otpustaju prema gledji, sto vodi nastanku karijesa zuba."
+        },
+        {
+            "icon": "fa fa-chain",
+            "name": "Poliranje zuba",
+            "text": "Poliranje zuba je jedna od najboljih tehnika za blistavo bele i zdrave zube. Poliranje zuba je usko povezano sa uklanjanjem kamenca. Pored lepog izgleda poliranje zuba doprinosi ocuvanju zuba i prolongira ponovno uklanjanje kamenca."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Nadogradnja zuba",
+            "text": "Pored konzervatinih metoda lecenja vrsimo i nadogradnje zuba. Protetika podrazumeva protetske radove, kao što je ugradnja krunica, mostova, proteza...Kod nas mozete ocekivati kvalitetnu i profesionalnu nadogradnje zuba."
+        },
+        {
+            "icon": "fa fa-diamond",
+            "name": "Tretman hijaluronom",
+            "text": "Hijaluronska kiselina ili hijaluron je najbolja supstanca za unapredjenje kvaliteta i tonusa koze i volumena lica. Hijaluronska kiselina je prirodan sastojak nase medjucelijske tecnosti, nalazi se u kozi, strukturama oka kao i omotacima zglobova. Vec posle prvog tretmana koza postaje vidno lepsa. Efekat postignut ovim tretmanom traje i do 2 godine."
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "Dusica Soldat Šola",
+            "job": "dr stomatologije"
+        },
+        {
+            "img": "img/team/03.jpg",
+            "name": "Danka Banduka",
+            "job": "dr stomatologije"
+        }, {
+            "img": "img/team/04.jpg",
+            "name": "Ana Iričanin",
+            "job": "dr stomatologije"
+        }
+    ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}
