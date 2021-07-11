@@ -117,7 +117,12 @@ const NavigationBar = (props) => {
               />
             </li>
             <li>
-              <a href="/login" className="page-scroll">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="http://159.89.19.117/"
+                className="page-scroll"
+              >
                 <Popup
                   content={
                     <FormattedMessage

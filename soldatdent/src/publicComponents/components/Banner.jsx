@@ -22,6 +22,7 @@ const Banner = (props) => {
           <a
             className={styles.bannerVisitLink}
             target="_blank"
+            rel="noreferrer"
             href="http://tomasevic-smestaj.me/"
           >
             Poseti web sajt
