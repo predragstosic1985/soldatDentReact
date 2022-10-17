@@ -5,10 +5,11 @@ import AboutUs from "./components/AboutUs";
 import ServicesSoldatDent from "./components/ServicesSoldatDent";
 import GallerySoldatDent from "./components/GallerySoldatDent";
 import ContactForm from "./components/ContactForm";
-import Banner from "./components/Banner";
+// import BannerTomasevic from "./components/Banners/BannerTomasevic";
 import JsonData from "./data/data.json";
 import Loader from "semantic-ui-react/dist/commonjs/elements/Loader";
 import Dimmer from "semantic-ui-react/dist/commonjs/modules/Dimmer";
+// import BannerNewYear from "./components/Banners/BannerNewYear";
 // import FeaturesSoldatDent from "./components/FeaturesSoldatDent";
 // import TestimonialUsers from "./components/TestimonialUsers";
 // import Team from "./components/Team";
@@ -20,6 +21,7 @@ const WebSite = () => {
   });
 
   const [isLoading, setIsLoading] = useState(true);
+  const [openBanner, setOpenBanner] = useState(true);
 
   useEffect(() => {
     setTimeout(() => setIsLoading(false), 3000);
@@ -50,7 +52,8 @@ const WebSite = () => {
       <AboutUs data={state.landingPageData.About} />
       <ServicesSoldatDent data={state.landingPageData.Services} />
       <GallerySoldatDent />
-      <Banner />
+      {/* <BannerTomasevic /> */}
+      {/* <BannerNewYear openBanner={openBanner} setOpenBanner={setOpenBanner} /> */}
       {/* <TestimonialUsers data={state.landingPageData.Testimonials} /> */}
       {/* <TeamSoldatDent data={state.landingPageData.Team} /> */}
       <ContactForm data={state.landingPageData.Contact} />

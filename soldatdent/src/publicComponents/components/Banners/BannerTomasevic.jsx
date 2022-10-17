@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import styles from "./style/Banner.module.css";
+import styles from "./style/BannerTomasevic.module.css";
 
-const Banner = (props) => {
+const BannerTomasevic = (props) => {
   const [hideBanner, setHideBanner] = useState(false);
 
   return (
@@ -33,4 +33,4 @@ const Banner = (props) => {
   );
 };
 
-export default Banner;
+export default BannerTomasevic;
