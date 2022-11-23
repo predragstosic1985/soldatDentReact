@@ -1,0 +1,76 @@
+.bannerStyle {
+    padding-top: 4.5rem !important;
+  }
+  
+  .heroImage {
+    background-image: url("../../../../Assets/Images/BlackFridaySoldatDent.jpg");
+    background-color: #D4202C !important;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  
+  .heroText {
+    font-family: "Mr Dafoe";
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .heroTextContent {
+    font-family: "Mr Dafoe";
+    margin: 0;
+    font-size: 2em;
+    margin-top: 0.6rem;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #ba8e40, 0 0 0.3em #ba8e40;
+  }
+  
+  .headerTextHead {
+    font-family: "Mr Dafoe";
+    margin: 0;
+    font-size: 2em;
+    margin-top: -0.9em;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #ba8e40, 0 0 0.3em #ba8e40;
+    transform: rotate(-7deg);
+  }
+  .headerTextFirst {
+    font-family: "Mr Dafoe";
+    margin: 0;
+    font-size: 1.5em;
+    margin-top: auto;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #ba8e40, 0 0 0.3em #ba8e40;
+    transform: rotate(-7deg);
+  }
+  
+  .headerTextSecond {
+    font-family: "Mr Dafoe";
+    margin: 0;
+    font-size: 1.5em;
+    margin-top: auto;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #ba8e40, 0 0 0.3em #ba8e40;
+    transform: rotate(-7deg);
+  }
+  
+  .headerTextThird {
+    font-family: "Mr Dafoe";
+    margin: 0;
+    font-size: 1.5em;
+    margin-top: auto;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #ba8e40, 0 0 0.3em #ba8e40;
+    /* transform: rotate(-4deg); */
+  }
+  .okBtn{
+    height: 20px;
+  }
+  

@@ -10,6 +10,7 @@ import JsonData from "./data/data.json";
 import Loader from "semantic-ui-react/dist/commonjs/elements/Loader";
 import Dimmer from "semantic-ui-react/dist/commonjs/modules/Dimmer";
 // import BannerNewYear from "./components/Banners/BannerNewYear";
+import BannerBlackFriday from "./components/Banners/BannerBlackFriday";
 // import FeaturesSoldatDent from "./components/FeaturesSoldatDent";
 // import TestimonialUsers from "./components/TestimonialUsers";
 // import Team from "./components/Team";
@@ -54,6 +55,10 @@ const WebSite = () => {
       <GallerySoldatDent />
       {/* <BannerTomasevic /> */}
       {/* <BannerNewYear openBanner={openBanner} setOpenBanner={setOpenBanner} /> */}
+      <BannerBlackFriday
+        openBanner={openBanner}
+        setOpenBanner={setOpenBanner}
+      />
       {/* <TestimonialUsers data={state.landingPageData.Testimonials} /> */}
       {/* <TeamSoldatDent data={state.landingPageData.Team} /> */}
       <ContactForm data={state.landingPageData.Contact} />
