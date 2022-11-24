@@ -3,8 +3,8 @@
   }
   
   .heroImage {
-    background-image: url("../../../../Assets/Images/BlackFridaySoldatDent.jpg");
-    background-color: #D4202C !important;
+    background-image: url("../../../../Assets/Images/BannerBF.jpg");
+    background-color: #004AAD !important;
     height: 100%;
     width: 100%;
     background-position: center;
@@ -46,7 +46,7 @@
     margin: 0;
     font-size: 1.5em;
     margin-top: auto;
-    color: white;
+    color:  #0c1827;
     text-shadow: 0 0 0.05em #fff, 0 0 0.2em #ba8e40, 0 0 0.3em #ba8e40;
     transform: rotate(-7deg);
   }
