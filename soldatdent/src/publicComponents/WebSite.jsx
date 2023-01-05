@@ -55,10 +55,10 @@ const WebSite = () => {
       <GallerySoldatDent />
       {/* <BannerTomasevic /> */}
       {/* <BannerNewYear openBanner={openBanner} setOpenBanner={setOpenBanner} /> */}
-      <BannerBlackFriday
+      {/* <BannerBlackFriday
         openBanner={openBanner}
         setOpenBanner={setOpenBanner}
-      />
+      /> */}
       {/* <TestimonialUsers data={state.landingPageData.Testimonials} /> */}
       {/* <TeamSoldatDent data={state.landingPageData.Team} /> */}
       <ContactForm data={state.landingPageData.Contact} />
