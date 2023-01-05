@@ -12,6 +12,7 @@
     "react-intl": "^6.2.5",
     "react-scripts": "5.0.1",
     "react-smooth": "^2.0.1",
+    "react-snowfall": "^1.2.1",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "smoke-effect-react": "^1.0.5",
