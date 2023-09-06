@@ -119,6 +119,31 @@ const ContactForm = (props) => {
             <div className="contact-item">
               <p>
                 <span>
+                  <i className="fa fa-calendar"></i>{" "}
+                  <FormattedMessage
+                    id="ws.contactForm.workingHours"
+                    defaultMessage="Loading"
+                  />
+                </span>{" "}
+                <FormattedMessage
+                    id="ws.contactForm.workingDays"
+                    defaultMessage="Loading"
+                  />
+                  <br/>
+                <FormattedMessage
+                    id="ws.contactForm.satrday"
+                    defaultMessage="Loading"
+                  />
+                  <br/>
+                <FormattedMessage
+                    id="ws.contactForm.sunday"
+                    defaultMessage="Loading"
+                  />
+              </p>
+            </div>
+            <div className="contact-item">
+              <p>
+                <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
                 dusicasoldat@yahoo.com

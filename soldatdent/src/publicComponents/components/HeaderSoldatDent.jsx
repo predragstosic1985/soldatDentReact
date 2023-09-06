@@ -1,17 +1,17 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
-import Snowfall from "react-snowfall";
+//import Snowfall from "react-snowfall";
 
 const HeaderSoldatDent = (props) => {
   return (
     <header id="header">
-      <Snowfall
+      {/* <Snowfall
         // color="red"
         // Applied to the canvas element
         // style={{ background: "#fff" }}
         // Controls the number of snowflakes that are created (default 150)
         snowflakeCount={500}
-      />
+      /> */}
       <div className="intro">
         <div className="overlay">
           <div className="container">

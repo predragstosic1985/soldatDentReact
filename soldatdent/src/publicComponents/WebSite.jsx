@@ -9,7 +9,7 @@ import ContactForm from "./components/ContactForm";
 import JsonData from "./data/data.json";
 import Loader from "semantic-ui-react/dist/commonjs/elements/Loader";
 import Dimmer from "semantic-ui-react/dist/commonjs/modules/Dimmer";
-import BannerNewYear from "./components/Banners/BannerNewYear";
+//import BannerNewYear from "./components/Banners/BannerNewYear";
 // import BannerBlackFriday from "./components/Banners/BannerBlackFriday";
 // import FeaturesSoldatDent from "./components/FeaturesSoldatDent";
 // import TestimonialUsers from "./components/TestimonialUsers";
@@ -54,7 +54,7 @@ const WebSite = () => {
       <ServicesSoldatDent data={state.landingPageData.Services} />
       <GallerySoldatDent />
       {/* <BannerTomasevic /> */}
-      <BannerNewYear openBanner={openBanner} setOpenBanner={setOpenBanner} />
+      {/* <BannerNewYear openBanner={openBanner} setOpenBanner={setOpenBanner} /> */}
       {/* <BannerBlackFriday
         openBanner={openBanner}
         setOpenBanner={setOpenBanner}
